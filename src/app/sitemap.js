@@ -6,28 +6,28 @@ export default async function sitemap() {
 
   const trending = data.map((anime)=>{
     return {
-      url: `https://streamableanime.me/anime/info/${anime.id}`,
+      url: `https://api2-vert.vercel.app/anime/info/${anime.id}`,
       lastModified: new Date(),
     }
   })
 
   const top100 = data2.map((anime)=>{
     return {
-      url: `https://streamableanime.me/anime/info/${anime.id}`,
+      url: `https://api2-vert.vercel.app/anime/info/${anime.id}`,
       lastModified: new Date(),
     }
   })
 
   const seasonal = data3.map((anime)=>{
     return {
-      url: `https://streamableanime.me/anime/info/${anime.id}`,
+      url: `https://api2-vert.vercel.app/anime/info/${anime.id}`,
       lastModified: new Date(),
     }
   })
 
     return [
       {
-        url: 'https://streamableanime.me',
+        url: 'https://api2-vert.vercel.app',
         lastModified: new Date(),
         changeFrequency: 'yearly',
         priority: 1,
