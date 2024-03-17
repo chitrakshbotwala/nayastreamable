@@ -116,7 +116,7 @@ export default function Changelogs() {
                                             </Link>
                                             {/* Discord Icon */}
                                             <Link
-                                                href="https://discord.gg/aW5P4W94ZS"
+                                                href="https://discord.gg/nq6wJxrvzu"
                                                 target="_blank"
                                                 className="w-6 h-6 hover:opacity-75"
                                             >
